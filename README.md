@@ -20,13 +20,13 @@ Each available service specifies:
 * A provisioned service specfication
 
 
-* [services/host]
-* [services/cert]
-* [services/httpLB]
-* [services/dataporten]
-* [services/dataportenAPI]
-* [services/dataportenAuthz]
-* [services/sql]
+* [services/host]()
+* [services/cert]()
+* [services/httpLB]()
+* [services/dataporten]()
+* [services/dataportenAPI]()
+* [services/dataportenAuthz]()
+* [services/sql]()
 
 
 
