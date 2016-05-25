@@ -30,67 +30,7 @@ Each available service specifies:
 * [SQL Storage](services/sql.md)
 
 
+## Examples
 
-## Example applications:
-
-
-
-Example of a Wordpress blog specification:
-
-```json
-{
-	"id": "wordpress",
-	"name": "Wordpress blog",
-	"servicesRequest": {
-		"host": {
-		},
-		"cert": {
-			"terminate": true
-		},
-		"httpLB": {
-			"tls": true,
-			"exposeHTTP": true,
-			"redirectToHTTPS": true,
-			"probe": "/healthz"
-		},
-		""
-	}
-}
-```
-
-Requested application instance:
-
-```json
-{
-	"applicationId": "wordpress",
-	"name": "Bobs blog",
-	"servicesRequest": {
-		"host": {
-			"host: "bob.uninett-apps.no"
-		}	
-	}
-}
-```
-
-Response to provisioned application:
-
-```json
-{
-	"id": "wordpress-1023",
-	"name": "Bobs blog",
-	"services": {
-		"http": {
-			"tls": true,
-			"exposeHTTP": true,
-			"redirectToHTTPS": true,
-			"probe": "/healthz"
-		}
-	}
-}
-```
-
-
-
-
-
-
+* [Example applications](examples.md)
+* [Example of using the app engine provisioning API](examples-api.md)
