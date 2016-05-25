@@ -29,7 +29,8 @@ Response specification:
 
 Exposed through configuration files:
 
-* `/etc/certs/appengine/`
+* `/etc/certs/appengine/key.pem`
+* `/etc/certs/appengine/cert.pem`
 
 Certificate will only be exposed through configuration files if TLS it not terminated.
 
@@ -37,6 +38,7 @@ Certificate will only be exposed through configuration files if TLS it not termi
 
 Exposed through environment variables:
 
+* `TLS=true`
 * `TLS_EXPOSED=true`
 * `TLS_INTERNAL=false`
 

@@ -21,6 +21,9 @@ Request specification:
 }
 ```
 
+
+User input: none
+
 Response specification:
 
 ```json

@@ -16,12 +16,13 @@ Request specification:
 		"probe": "/healthz"
 	}
 }
-
 ```
-User input:
 
-```json
-{
-	"httpLB": {}
-}
+User input: No extra
+
+Exposed environment variables:
+
+
+```properties
+HTTPLB=true
 ```

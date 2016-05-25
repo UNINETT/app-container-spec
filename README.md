@@ -47,7 +47,7 @@ Example of a Wordpress blog specification:
 		"cert": {
 			"terminate": true
 		},
-		"http": {
+		"httpLB": {
 			"tls": true,
 			"exposeHTTP": true,
 			"redirectToHTTPS": true,
@@ -76,7 +76,7 @@ Response to provisioned application:
 
 ```json
 {
-	"id": "wordpress-1023"
+	"id": "wordpress-1023",
 	"name": "Bobs blog",
 	"services": {
 		"http": {
