@@ -21,13 +21,13 @@ Each available service specifies:
 
 ## Services
 
-* [Host](services/host)
-* [Certificates](services/cert)
-* [L7 Loadbalancer](services/httpLB)
-* [Dataporten](services/dataporten)
-* [Dataporten API Gatekeeper](services/dataportenAPI)
-* [Dataporten Authorization](services/dataportenAuthz)
-* [SQL Storage](services/sql)
+* [Host](services/host.md)
+* [Certificates](services/cert.md)
+* [L7 Loadbalancer](services/httpLB.md)
+* [Dataporten](services/dataporten.md)
+* [Dataporten API Gatekeeper](services/dataportenAPI.md)
+* [Dataporten Authorization](services/dataportenAuthz.md)
+* [SQL Storage](services/sql.md)
 
 
 
