@@ -26,7 +26,7 @@ User Input
 			"access": {
 				"any": true
 			},
-			"comment"{
+			"comment": {
 				"authenticated": true
 			},
 			"editor": {

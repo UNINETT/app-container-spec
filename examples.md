@@ -22,7 +22,7 @@ Authorization config in `/etc/appengine/authorization.json`:
 		"access": {
 			"any": true
 		},
-		"comment"{
+		"comment": {
 			"authenticated": true
 		},
 		"editor": {
